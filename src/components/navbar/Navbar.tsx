@@ -60,7 +60,7 @@ const Navbar = () => {
               <span>
               <FontAwesomeIcon icon={faPhone}/>
               </span>
-              <Link href='/portfolio/contacts' className='text-xl px-6 text-center py-5 hover:bg-white md:hover:bg-transparent hover:text-black' onClick={ () => setNavbar(!navbar)}>Contact</Link>
+              <Link href='/portfolio/contact' className='text-xl px-6 text-center py-5 hover:bg-white md:hover:bg-transparent hover:text-black' onClick={ () => setNavbar(!navbar)}>Contact</Link>
             </li>
           </ul>
           <div className='md:mt-2 md:items-center  mt-8 '>

@@ -7,7 +7,7 @@ const footer = () => {
   return (
     <div>
         
-        <footer className="bg-gray-800 relative bottom-0 left-0 right-0 dark:text-white ">
+        <footer className="bg-gray-800 fixed bottom-0 left-0 right-0  dark:text-white ">    
         <div className="mx-auto max-w-screen-xl p-1 py-1 flex justify-between">
             <div className="md:flex md:justify-between flex-row">
                 <div>   

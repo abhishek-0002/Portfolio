@@ -37,7 +37,7 @@ const About = () => {
 
   return (
       <>
-        <div className=''>
+        <div className='py-24'>
           {/* {Introduction} */}
           <div className=''>
             <h1 className='text-green-800 text-3xl md:text-4xl text-center mt-8 font-extralight font-sans'>Exploring Aditya!</h1>

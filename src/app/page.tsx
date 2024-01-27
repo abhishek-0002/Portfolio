@@ -17,11 +17,14 @@ export default function Home() {
             <div>
               <h1 className='ml-5 font-bold text-4xl mt-6'>Hey, I&#39;m Aditya Akhilesh!</h1>
                 <br/>
-                <p className='text-center flex text-lg mt-2 mb-6 px-24'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat.
+                <p className='text-center text-lg mt-2 mb-6 px-4 md:px-8 lg:px-16 xl:px-24 
+                transition-all duration-500 ease-in-out transform hover:scale-105 '>
+                As a dedicated Master's student in Computer Engineering at Iowa State University, 
+                my academic focus revolves around computing and networking systems, supplemented by a keen interest in data science. 
+                Holding a Bachelor's degree in Electrical and Electronics Engineering, I bring a diverse skill set to the table.
+                My experiences include serving as a Graduate Teaching Assistant and a Graduate Research Assistant at Iowa State University, where I actively contributed to the academic community. 
+                Additionally, I have practical exposure through a rewarding internship in a data science role. Proficient in Python, SDLC, and well-versed in the data science domain,
+                I am enthusiastic about exploring opportunities in the software tech industry to apply and enhance my skills.
               </p>
               <Link href='/portfolio/projects' className="mt-2 text-neutral text-white md:hover:text-black font-semibond px-6 py-3 bg-violet-600 rounded-full"  >
                 Projects
