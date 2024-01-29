@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { Bounce, toast, ToastContainer } from 'react-toastify';
 
-const contact = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name:'',
     email:'',
@@ -88,4 +88,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
