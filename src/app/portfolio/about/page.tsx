@@ -4,8 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload} from '@fortawesome/free-solid-svg-icons'
+import { getImageSource } from '@/utils/getImageSource';
 
 const About = () => {
+  const imageUrl = getImageSource();
   const skills = ['C','Java','Python','Machine Learning', 'Data Analysis']
   const experiences = [
     {
@@ -78,7 +80,7 @@ const About = () => {
           <div className='animate-fadeIn flex items-center '>
             {/* {Image} */}
             <div className='md:p-8 mb-2 ml-8 '>
-             <Image src='/skills.png' alt='image failed' width={300} height={300}></Image>
+             <Image src={imageUrl+'/skills.png'} alt='image failed' width={300} height={300}></Image>
             </div>
             <div className='ml-8'>
              <h1 className='mt-10 font-semibold md:text-3xl flex font-sans justify-between px-4 m-2 mb-2 py-2'>Skills</h1>
@@ -123,7 +125,7 @@ const About = () => {
                           ))}
                         </ul>
                       </div>
-                      <a href='' target='_blank' rel="noopener noreferrer" className='p-2 text-blue-600  hover:underline'>Visit</a> 
+                      {/* <a href='' target='_blank' rel="noopener noreferrer" className='p-2 text-blue-600  hover:underline'>Visit</a>  */}
                     </div>
                   </div>
                   ))}
@@ -132,7 +134,7 @@ const About = () => {
 
               {/* {experience logo} */}
               <div className=' w-auto'>
-                <Image src='/experience.png' className='rounded-full ' alt='image not found' width={200} height={200}></Image>
+                <Image src={imageUrl+'/experience.png'} className='rounded-full ' alt='image not found' width={200} height={200}></Image>
               </div>
               
             </div>
@@ -141,7 +143,7 @@ const About = () => {
           {/* {Download Resume} */}
           <div className='p-8 mb-4 ml-8'>
             <div className='flex justify-end'>
-              <Link href='/Aditya_CV_.pdf' target='_blank' className="text-neutral text-white md:hover:text-black font-semibond px-6 py-3 bg-violet-600 rounded-full"  >
+              <Link href={imageUrl+'/Aditya_CV_.pdf'} target='_blank' className="text-neutral text-white md:hover:text-black font-semibond px-6 py-3 bg-violet-600 rounded-full"  >
                 Resume
                 <span>
                 <FontAwesomeIcon className='ml-2' icon={faDownload} />

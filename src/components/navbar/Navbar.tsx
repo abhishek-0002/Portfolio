@@ -6,9 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars,faXmark, faHouse, faCircleInfo, faDiagramProject, faPhone } from '@fortawesome/free-solid-svg-icons'; 
 import Themeswitcher from '@/components/themeswitcher/Themeswitcher'
 import Image from 'next/image';
+import { getImageSource } from '@/utils/getImageSource';
 const Navbar = () => {
 
   const [navbar,setNavbar] = useState(false)
+  const imageUrl = getImageSource();
 
   return (
     <nav className='w-full  shadow px-5'>
@@ -16,7 +18,7 @@ const Navbar = () => {
       <div className='md:flex items-center justify-between md:py-5 '>
        
         <div className='flex items-center'>
-          <Image className='rounded-full' src='/logo.jpg' width={50}   height={50} alt='?'/>
+          <Image className='rounded-full' src={imageUrl+'/logo.jpg'} width={50}   height={50} alt='?'/>
           <Link href='/'>  
           <h2 className='hover:text-black text-2xl font-bold md:pl-5 p-3'>Aditya Akhilesh</h2>
           </Link>
