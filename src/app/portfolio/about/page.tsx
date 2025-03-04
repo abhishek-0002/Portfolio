@@ -11,26 +11,26 @@ const About = () => {
   const skills = ['C','Java','Python','Machine Learning', 'Data Analysis']
   const experiences = [
     {
-      title: 'Graduate Teaching Assistant',
+      title: 'Graduate Research Assistant',
       company:'Iowa State University',
-      date:'Aug 2023- Present',
-      description:'Teaching Assistant for SE-185 Problem Solving in Software Engineering',
-      skills: ['Python(Programming Language)', 'C(Prgamming Language)'],
+      date:'Aug 2023- December 2024',
+      description: 'As a Research Assistant, I developed a Python-based framework to simulate faults, cyberattacks, and perturbations on a Hardware-in-the-Loop Cyber-Physical Systems testbed, significantly enhancing anomaly detection capabilities. This led to achieving a 99.1% F1 score with machine learning models trained using TensorFlow and Scikit-learn. Additionally, I investigated Grid-Forming and Grid-Following inverter control strategies using OpenDSS, focusing on their performance and behavioral impacts. My role also involved collaborating closely with faculty and peers, providing weekly presentations, writing research papers, and publishing findings in IEEE conferences.',
+      skills: ['Python', 'Machine Learning', 'TensorFlow', 'Pytorch', 'Scikit-Learn', 'OPAL-RT', 'OpenDSS', 'Presentation'],
       companyLink: ''
     },
     {
-      title: 'Graduate Research Assistant',
+      title: 'Graduate Teaching Assistant',
       company:'Iowa State University',
-      date:'Dec 2022- Jul 2023',
-      description:'Teaching Assistant for SE-185 Problem Solving in Software Engineering',
-      skills: ['Python(Programming Language)', 'Machine Learning', 'Data Analysis', 'Data Visualization'],
+      date:'August 2023- December 2023',
+      description:'Assist in teaching SE-185 Problem Solving in Software Engineering, guiding undergraduates through complex programming concepts and fostering a collaborative learning environment.',
+      skills: ['C programming', 'Educational Leadership'],
       companyLink: ''
     },
     {
       title: 'Data Science Intern',
       company:'Rubixe',
       date:'Dec 2021- May 2022',
-      description:'Teaching Assistant for SE-185 Problem Solving in Software Engineering',
+      description:'',
       skills: ['Python(Programming Language)', 'Machine Learning', 'Data Analysis', 'Data Visualization'],
       companyLink: ''
     },
@@ -45,11 +45,10 @@ const About = () => {
             <h1 className='text-green-800 text-3xl md:text-4xl text-center mt-8 font-extralight font-sans'>Exploring Aditya!</h1>
             <hr className='mx-auto h-1 bottom-4 transform -translate-x-1/2 w-12 mt-4 mb-2 bg-sky-600'></hr>
             <p className="animate-fadeIn md:flex py-6 px-6 text-base md:text-lg mb-1 transition-all ease-in-out duration-300 transform hover:scale-105 font-serif">
-              Welcome to my world of innovation, education, and transformation.
-              I&apos;m Aditya, a tech enthusiast and educator on a mission to make a difference.
-              As a Graduate Teaching Assistant at Iowa State University, I&apos;m nurturing
-              the next generation of tech leaders while pursuing my Master&apos;s in Computer Engineering.
-              Join me in this journey of limitless possibilities!
+            Welcome to my world of innovation, education, and transformation. 
+            I'm Aditya, a passionate tech enthusiast and educator dedicated to making a meaningful impact.
+            Join me on a journey of limitless possibilities, 
+            where we explore the cutting edge of technology and foster the next wave of innovation.
             </p>
             <h1 className="text-1xl flex justify-around md:text-lg font-extralight mb-2 animate-fadeIn text-emerald-800">
                -------- Exploring the Boundaries of Technology ------- 
@@ -62,7 +61,7 @@ const About = () => {
             <div className="mb-1 px-4 m-2 py-2 flex justify-between">
               <div>
                 <h3 className="text-xl font-medium">Master&apos;s in Computer Engineering</h3>
-                <p className="text-lg font-light">Your University Name</p>
+                <p className="text-lg font-light">Iowa State University</p>
               </div>
               <p className='text-lg font-light'>Year-Present</p>
             </div>
@@ -70,9 +69,9 @@ const About = () => {
             <div className="px-4 m-2 py-2 mb-8 flex justify-between">
               <div>
                 <h3 className="text-xl font-medium">Bachelor of Technology in Electronics and Electronics Engineering</h3>
-                <p className="text-lg font-light">Your University Name</p>
+                <p className="text-lg font-light">Gayatri Vidhya Parishad College of Engineering</p>
               </div>
-              <p className="text-lg font-light">Year - Year</p>
+              <p className="text-lg font-light">August 2015 - May 2019</p>
             </div>
           </div>
 

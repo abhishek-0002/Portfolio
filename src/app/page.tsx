@@ -21,12 +21,10 @@ export default function Home() {
                 <br/>
                 <p className='text-center text-lg mt-2 mb-6 px-4 md:px-8 lg:px-16 xl:px-24 
                 transition-all duration-500 ease-in-out transform hover:scale-105 '>
-                As a dedicated Master&apos;s student in Computer Engineering at Iowa State University, 
-                my academic focus revolves around computing and networking systems, supplemented by a keen interest in data science. 
-                Holding a Bachelor&apos;s degree in Electrical and Electronics Engineering, I bring a diverse skill set to the table.
-                My experiences include serving as a Graduate Teaching Assistant and a Graduate Research Assistant at Iowa State University, where I actively contributed to the academic community. 
-                Additionally, I have practical exposure through a rewarding internship in a data science role. Proficient in Python, SDLC, and well-versed in the data science domain,
-                I am enthusiastic about exploring opportunities in the software tech industry to apply and enhance my skills.
+                I am a <strong>Data Analytics and Machine Learning Engineer</strong>, with Master&apos;s degree in 
+                Computer Engineering from Iowa State University, USA, and a Bachelor&apos;s in Electrical and Electronics Engineering from India. 
+                Specializing in statistical modeling, predictive analytics, and algorithm development, I excel at extracting meaningful insights from complex datasets. 
+                Proficient in Python, SQL, ML/DL frameworks, and cloud computing, I am passionate about leveraging data-driven solutions to drive innovation and informed decision-making.
               </p>
               <Link href='/portfolio/projects' className="mt-2 text-neutral text-white md:hover:text-black font-semibond px-6 py-3 bg-violet-600 rounded-full"  >
                 Projects
